@@ -1,0 +1,39 @@
+{% extends 'indexapp/base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 order-md-1 ml-4 text-center">
+                <h4 class="text-secondary">Категории проводов по температурнуми индексу</h4>
+                <div class="list-group">
+                    {% for category in categories%}
+                    <a href="{% url 'category_id' category.id %}" class="list-group-item bg-light">
+                        {{ category.name }}
+                    </a>
+                    {% endfor %}
+                </div>
+        </div>
+        <div class="col-md-12 order-md-3 mb-4 text-center">
+            <div class="row row-cols-1 row-cols-md-5 mb-3 mx-3 text-center">
+        {% for product in object_list %}
+            <div class="col">
+                <div class="card mb-4 rounded-10 shadow-sm border-primary">
+                    <a href="{% url 'product_detail' product.slug %}">
+                      <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">{{ product.name }}</h4>
+                      </div>
+                        <div class="card-body" style="background-color: #dadcfb">
+                           <img src="{{ product.image.url }}" class="img-fluid img-thumbnail height: 80%" alt="ИЗОБРАЖЕНИЕ">
+                           <button type="button" class="w-100 btn btn-lg btn-secondary">Выбрать сечения</button>
+                       </div>
+                    </a>
+            </div>
+            </div>
+        {% endfor %}
+    </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+<h2 class="display-6 text-center mb-4">Выберите заинтересовавший Вас продукт и добавьте его в заказ</h2>

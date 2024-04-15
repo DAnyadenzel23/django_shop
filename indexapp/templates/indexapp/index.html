@@ -1,0 +1,41 @@
+{% extends 'indexapp/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="container col-xxl-8 px-4 py-2">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">"Спектр-Электро" - надежный поставщик обмоточных проводов для Вашего
+                производства.</h1>
+            <p class="lead">Компания "Спектр-Элекро" специализируется на продаже эмалированных проводов круглого сечения.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="{% url 'products' %}">
+                    <button href="{% url 'products' %}" type="button" class="btn btn-outline-secondary btn-lg px-4">
+                        Каталог Эмальпровода
+                    </button>
+                </a>
+                <a href="{% url 'contact' %}">
+                    <button href="{% url 'contact' %}" type="button" class="btn btn-outline-secondary btn-lg px-4">
+                        Контактые данные
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="container col-10 col-sm-8 col-lg-6 ">
+            <img src={% static 'images/S_image.jpg' %}
+                 class="rounded-circle img-fluid mx-auto d-block"
+                 alt="Логотип" width="300"
+                 height="450" loading="lazy">
+        </div>
+    </div>
+</div>
+<div class="container col-xxl-8 px-4 pb-2   ">
+    <img src={% static 'images/Общее фото Эмальпровод.jpg'%}
+    class="rounded img-fluid"
+    alt="Фото провода"  loading="lazy">
+</div>
+{% endblock %}
+
+

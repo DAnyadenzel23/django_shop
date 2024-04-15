@@ -1,0 +1,499 @@
+[
+  {
+    "model": "indexapp.sections",
+    "pk": 3,
+    "fields": {
+      "section": "0,45"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 4,
+    "fields": {
+      "section": "0,50"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 5,
+    "fields": {
+      "section": "0,53"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 6,
+    "fields": {
+      "section": "0,56"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 7,
+    "fields": {
+      "section": "0,60"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 8,
+    "fields": {
+      "section": "0,63"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 9,
+    "fields": {
+      "section": "0,67"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 10,
+    "fields": {
+      "section": "0,71"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 11,
+    "fields": {
+      "section": "0,75"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 12,
+    "fields": {
+      "section": "0,80"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 13,
+    "fields": {
+      "section": "0,85"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 14,
+    "fields": {
+      "section": "0,90"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 15,
+    "fields": {
+      "section": "0,95"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 18,
+    "fields": {
+      "section": "0,050"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 19,
+    "fields": {
+      "section": "0,060"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 20,
+    "fields": {
+      "section": "0,063"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 21,
+    "fields": {
+      "section": "0,071"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 22,
+    "fields": {
+      "section": "0,080"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 23,
+    "fields": {
+      "section": "0,090"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 24,
+    "fields": {
+      "section": "0,090"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 25,
+    "fields": {
+      "section": "0,100"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 26,
+    "fields": {
+      "section": "0,112"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 27,
+    "fields": {
+      "section": "0,120"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 28,
+    "fields": {
+      "section": "0,125"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 29,
+    "fields": {
+      "section": "0,130"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 30,
+    "fields": {
+      "section": "0,140"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 31,
+    "fields": {
+      "section": "0,150"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 32,
+    "fields": {
+      "section": "0,160"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 33,
+    "fields": {
+      "section": "0,170"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 34,
+    "fields": {
+      "section": "0,180"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 35,
+    "fields": {
+      "section": "0,190"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 36,
+    "fields": {
+      "section": "0,200"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 37,
+    "fields": {
+      "section": "0,210"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 38,
+    "fields": {
+      "section": "0,224"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 39,
+    "fields": {
+      "section": "0,236"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 40,
+    "fields": {
+      "section": "0,250"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 41,
+    "fields": {
+      "section": "0,265"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 42,
+    "fields": {
+      "section": "0,280"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 43,
+    "fields": {
+      "section": "0,300"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 44,
+    "fields": {
+      "section": "0,315"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 45,
+    "fields": {
+      "section": "0,335"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 46,
+    "fields": {
+      "section": "0,355"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 47,
+    "fields": {
+      "section": "0,380"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 48,
+    "fields": {
+      "section": "0,425"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 49,
+    "fields": {
+      "section": "1,060"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 50,
+    "fields": {
+      "section": "1,080"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 51,
+    "fields": {
+      "section": "1,120"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 53,
+    "fields": {
+      "section": "1,180"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 54,
+    "fields": {
+      "section": "1,250"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 55,
+    "fields": {
+      "section": "0,400"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 56,
+    "fields": {
+      "section": "1,320"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 57,
+    "fields": {
+      "section": "1,400"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 58,
+    "fields": {
+      "section": "1,450"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 59,
+    "fields": {
+      "section": "1,500"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 60,
+    "fields": {
+      "section": "1,560"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 61,
+    "fields": {
+      "section": "1,600"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 62,
+    "fields": {
+      "section": "1,700"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 63,
+    "fields": {
+      "section": "1,800"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 64,
+    "fields": {
+      "section": "1,900"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 65,
+    "fields": {
+      "section": "2,000"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 66,
+    "fields": {
+      "section": "2,120"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 67,
+    "fields": {
+      "section": "2,240"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 68,
+    "fields": {
+      "section": "2,360"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 69,
+    "fields": {
+      "section": "2,500"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 70,
+    "fields": {
+      "section": "0,018"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 71,
+    "fields": {
+      "section": "0,020"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 72,
+    "fields": {
+      "section": "1,000"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 73,
+    "fields": {
+      "section": "0,025"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 74,
+    "fields": {
+      "section": "0,030"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 75,
+    "fields": {
+      "section": "0,032"
+    }
+  },
+  {
+    "model": "indexapp.sections",
+    "pk": 76,
+    "fields": {
+      "section": "0,040"
+    }
+  }
+]

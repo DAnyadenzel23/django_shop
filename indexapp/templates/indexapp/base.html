@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Спектр-Электро</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body style="background-color: #dadcfb">
+<main>
+    <div class="container">
+        <header class="d-flex justify-content-center py-4">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="{% url 'index' %}" class="nav-link active" aria-current="page">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'contact' %}" class="nav-link active">Контактные данные</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'products' %}" class="nav-link active">Каталог</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'cart_detail' %}" class="nav-link active">Корзина</a>
+                </li>
+            </ul>
+        </header>
+    </div>
+</main>
+
+{% if messages %}
+    <div class="container col-8">
+        <ul class="messages">
+            {% for message in messages %}
+                <li>
+                    <div class="alert {{ message.tags }} py-5 text-center mb-10" role="alert">
+                        <h4 class="alert-heading">{{ message }}</h4>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+
+{% block content %} {% endblock %}
+
+
+<!-- Дополнительный JavaScript! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+    </script>
+</body>
+</html>
